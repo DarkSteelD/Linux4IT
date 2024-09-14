@@ -1,0 +1,44 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout кода из репозитория
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Логин в Docker Hub (если деплой на Docker Hub)
+    - name: Log in to Docker Hub
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+    # Сборка Docker-образа
+    - name: Build Docker image
+      run: docker build -t myapp:latest .
+
+    # Запуск линтера (например, flake8 для Python)
+    - name: Run linter
+      run: docker run myapp:latest flake8 .
+
+    # Запуск тестов (например, pytest)
+    - name: Run tests
+      run: docker run myapp:latest pytest
+
+    # Деплой (если нужно отправить образ в Docker Hub)
+    - name: Push Docker image to Docker Hub
+      run: docker push myapp:latest
+
+    # Пример деплоя на сервер через SSH
+    - name: Deploy to server
+      run: |
+        ssh -o StrictHostKeyChecking=no user@server << 'EOF'
+        docker pull myapp:latest
+        docker stop myapp || true
+        docker rm myapp || true
+        docker run -d --name myapp -p 80:8000 myapp:latest
+        EOF
