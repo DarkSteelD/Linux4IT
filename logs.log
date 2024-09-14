@@ -1,0 +1,36 @@
+update-alternatives 2024-09-07 07:39:05: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 15 --slave /usr/share/man/da/man1/editor.1.gz editor.da.1.gz /usr/share/man/da/man1/vim.1.gz --slave /usr/share/man/de/man1/editor.1.gz editor.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/ja/man1/editor.1.gz editor.ja.1.gz /usr/share/man/ja/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+Sep 14 07:40:04 dark-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC CRON[638428]: pam_unix(cron:session): session closed for user dark
+done.
+2024-09-13 11:23:44 status installed python3-setuptools:all 59.6.0-1.2ubuntu0.22.04.2
+fc-cache: succeeded
+Setting power control to "on" in /sys/bus/pci/devices/0000:01:00.0/power/control
+Setting power control to "on" in /sys/bus/pci/devices/0000:01:00.0/power/control
+Sep 14 07:40:01 dark-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC kernel: [65386.512553] usb 3-2: reset low-speed USB device number 28 using xhci_hcd
+Starting NBFC service...
+ERROR: Installation has failed.  Please see the file '/var/log/nvidia-installer.log' for details.  You may find suggestions on fixing installation problems in the README available on the Linux driver download page at www.nvidia.com.
+[   138.474] (II) Server terminated successfully (0). Closing log file.
+[   408.455] (II) Server terminated successfully (0). Closing log file.
+update-alternatives 2024-09-07 07:39:05: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 15 --slave /usr/share/man/da/man1/editor.1.gz editor.da.1.gz /usr/share/man/da/man1/vim.1.gz --slave /usr/share/man/de/man1/editor.1.gz editor.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/ja/man1/editor.1.gz editor.ja.1.gz /usr/share/man/ja/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+Sep 14 07:40:48 dark-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+done.
+2024-09-13 11:23:44 status installed python3-setuptools:all 59.6.0-1.2ubuntu0.22.04.2
+fc-cache: succeeded
+Setting power control to "on" in /sys/bus/pci/devices/0000:01:00.0/power/control
+Setting power control to "on" in /sys/bus/pci/devices/0000:01:00.0/power/control
+Sep 14 07:40:01 dark-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC kernel: [65386.512553] usb 3-2: reset low-speed USB device number 28 using xhci_hcd
+Starting NBFC service...
+ERROR: Installation has failed.  Please see the file '/var/log/nvidia-installer.log' for details.  You may find suggestions on fixing installation problems in the README available on the Linux driver download page at www.nvidia.com.
+[   138.474] (II) Server terminated successfully (0). Closing log file.
+[   408.455] (II) Server terminated successfully (0). Closing log file.
+update-alternatives 2024-09-07 07:39:05: run with --install /usr/bin/editor editor /usr/bin/vim.tiny 15 --slave /usr/share/man/da/man1/editor.1.gz editor.da.1.gz /usr/share/man/da/man1/vim.1.gz --slave /usr/share/man/de/man1/editor.1.gz editor.de.1.gz /usr/share/man/de/man1/vim.1.gz --slave /usr/share/man/fr/man1/editor.1.gz editor.fr.1.gz /usr/share/man/fr/man1/vim.1.gz --slave /usr/share/man/it/man1/editor.1.gz editor.it.1.gz /usr/share/man/it/man1/vim.1.gz --slave /usr/share/man/ja/man1/editor.1.gz editor.ja.1.gz /usr/share/man/ja/man1/vim.1.gz --slave /usr/share/man/pl/man1/editor.1.gz editor.pl.1.gz /usr/share/man/pl/man1/vim.1.gz --slave /usr/share/man/ru/man1/editor.1.gz editor.ru.1.gz /usr/share/man/ru/man1/vim.1.gz --slave /usr/share/man/man1/editor.1.gz editor.1.gz /usr/share/man/man1/vim.1.gz
+Sep 14 07:44:36 dark-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+done.
+2024-09-13 11:23:44 status installed python3-setuptools:all 59.6.0-1.2ubuntu0.22.04.2
+fc-cache: succeeded
+Setting power control to "on" in /sys/bus/pci/devices/0000:01:00.0/power/control
+Setting power control to "on" in /sys/bus/pci/devices/0000:01:00.0/power/control
+Sep 14 07:43:16 dark-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC kernel: [65581.248011] hid-generic 0003:30FA:0400.0015: input,hidraw2: USB HID v1.11 Mouse [USB Optical Mouse ] on usb-0000:00:14.0-2/input0
+Starting NBFC service...
+ERROR: Installation has failed.  Please see the file '/var/log/nvidia-installer.log' for details.  You may find suggestions on fixing installation problems in the README available on the Linux driver download page at www.nvidia.com.
+[   138.474] (II) Server terminated successfully (0). Closing log file.
+[   408.455] (II) Server terminated successfully (0). Closing log file.

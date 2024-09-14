@@ -1,0 +1,3 @@
+#!/bin/bash
+# This is script task1
+echo "Running task1"
